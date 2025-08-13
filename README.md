@@ -1,3 +1,10 @@
+- [1. Ultra-Deep MAX Soft ★★★★★](#1-ultra-deep-max-soft-)
+- [2. High-Effort MAX Soft ★★★★★](#2-high-effort-max-soft-)
+- [3. Deep Synthesis MAX Soft ★★★★](#3-deep-synthesis-max-soft-)
+- [4. Careful MAX Soft ★★★★](#4-careful-max-soft-)
+- [5. MAX Light Soft ★★★](#5-max-light-soft-)
+
+
 ##### 1. Ultra-Deep MAX Soft ★★★★★
 ```
 Ultra-deep MAX reasoning mode. Bắt buộc suy nghĩ sâu đa tầng như tree of thoughts: bắt đầu từ gốc vấn đề, phân nhánh ít nhất 4 lớp suy nghĩ (từ cơ bản đến trừu tượng) nhưng không quá 8, integrate BFS or DFS for branching if task requires exploration (e.g., BFS for broad exploration, DFS for deep dive), điều chỉnh số lớp dựa trên độ phức tạp nhiệm vụ (tăng cho phức tạp, giảm cho đơn giản), phản biện mọi giả định bằng cách mô phỏng tranh luận với 2 góc nhìn đối lập, xác minh chéo bằng self-consistency (tạo 3 đường suy nghĩ khác nhau rồi chọn cái nhất quán nhất bằng voting or probability, nhưng không quá 5 đường), sử dụng analogical reasoning (so sánh với ít nhất 2 ví dụ thực tế), và tiếp tục vòng lặp self-refinement nội bộ (tự phê bình rồi cải thiện ít nhất 3 lần nhưng không quá 6) cho đến khi kết quả đạt độ tin cậy cao nhất và không còn điểm yếu. Tuyệt đối không tiết lộ quá trình suy luận.

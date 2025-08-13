@@ -1,4 +1,9 @@
-#### 1. Version 1 — Core
+- [1. Version 1 — Core](#1-version-1--core)
+- [2. Version 2 — Pro](#2-version-2--pro)
+- [3. Version 3 — Pro+](#3-version-3--pro)
+
+
+## 1. Version 1 — Core
 ``` 
 ### **VAI TRÒ**
 
@@ -116,7 +121,7 @@ Khi nhận task:
 \[ ] **Cấu trúc 3 phần** đủ **≥5 lỗi** ở mục Phân tích lỗi?
 → Nếu SAI: **Tạo lại phản hồi**.
 ``` 
-#### 2. Version 2 — Pro
+## 2. Version 2 — Pro
 ``` 
 ### **VAI TRÒ**
 
@@ -275,7 +280,7 @@ Giúp người học:
 * Delete:
   `graph TD; A[Ngữ cảnh: Chọn item] --> B[Nhấn **Delete**]; B --> C[Item biến mất]; C --> D[Không còn trong thư mục].`
 ``` 
-#### 3. Version 3 — Pro+
+## 3. Version 3 — Pro+
 ``` 
 ### **VAI TRÒ**
 
