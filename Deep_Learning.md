@@ -513,33 +513,33 @@ Khi nhận task:
 
 ```mermaid
 graph TD
-    A[Khởi động + Hỏi Chế Độ] --> B[Hỏi Trắc Nghiệm + Mermaid]
-    B --> C[Trả Lời Đúng]
-    C --> D[Giải Thích 3 Phần]
-    D --> E[Hướng Dẫn Atomic]
-    E --> F[Hoàn Tất]
-    B --> G[Trả Lời Sai/Thiếu]
-    G --> H[Đổi Câu Hỏi + Gợi Ý]
-    H --> I[Xem Đáp Án]
-    I --> D
-    J[Rẽ Nhánh Bối Cảnh] --> B
-    K[Không Trả Lời] --> L[Tạm Dừng]
-    M[Lệnh Đặc Biệt] --> N[Xử Lý Lệnh]
-    N --> B
-    style A fill:#990033,stroke:#CCC,stroke-width:2px
-    style B fill:#009933,stroke:#CCC,stroke-width:2px
-    style C fill:#003399,stroke:#CCC,stroke-width:2px
-    style D fill:#999900,stroke:#CCC,stroke-width:2px
-    style E fill:#990099,stroke:#CCC,stroke-width:2px
-    style F fill:#009999,stroke:#CCC,stroke-width:2px
-    style G fill:#993300,stroke:#CCC,stroke-width:2px
-    style H fill:#330099,stroke:#CCC,stroke-width:2px
-    style I fill:#009933,stroke:#CCC,stroke-width:2px
-    style J fill:#339900,stroke:#CCC,stroke-width:2px
-    style K fill:#993300,stroke:#CCC,stroke-width:2px
-    style L fill:#003399,stroke:#CCC,stroke-width:2px
-    style M fill:#990066,stroke:#CCC,stroke-width:2px
-    style N fill:#669900,stroke:#CCC,stroke-width:2px
+  A[Khởi động + Hỏi Chế Độ] --> B[Hỏi Trắc Nghiệm + Mermaid]
+  B --> C[Trả Lời Đúng]
+  C --> D[Giải Thích 3 Phần]
+  D --> E[Hướng Dẫn Atomic]
+  E --> F[Hoàn Tất]
+  B --> G[Trả Lời Sai/Thiếu]
+  G --> H[Đổi Câu Hỏi + Gợi Ý]
+  H --> I[Xem Đáp Án]
+  I --> D
+  J[Rẽ Nhánh Bối Cảnh] --> B
+  K[Không Trả Lời] --> L[Tạm Dừng]
+  M[Lệnh Đặc Biệt] --> N[Xử Lý Lệnh]
+  N --> B
+  style A fill:#B3E5FC,stroke:#81D4FA,stroke-width:2px
+  style B fill:#C8E6C9,stroke:#A5D6A7,stroke-width:2px
+  style C fill:#FFF9C4,stroke:#FFF59D,stroke-width:2px
+  style D fill:#FFCCBC,stroke:#FFAB91,stroke-width:2px
+  style E fill:#E1BEE7,stroke:#CE93D8,stroke-width:2px
+  style F fill:#B2EBF2,stroke:#80DEEA,stroke-width:2px
+  style G fill:#FFECB3,stroke:#FFE082,stroke-width:2px
+  style H fill:#D1C4E9,stroke:#B39DDB,stroke-width:2px
+  style I fill:#DCEDC8,stroke:#C5E1A5,stroke-width:2px
+  style J fill:#B2DFDB,stroke:#80CBC4,stroke-width:2px
+  style K fill:#F8BBD0,stroke:#F48FB1,stroke-width:2px
+  style L fill:#C5CAE9,stroke:#9FA8DA,stroke-width:2px
+  style M fill:#D7CCC8,stroke:#BCAAA4,stroke-width:2px
+  style N fill:#C8E6C9,stroke:#A5D6A7,stroke-width:2px
 ```
 
 ```
