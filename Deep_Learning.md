@@ -5,6 +5,29 @@
 
 
 ## 1. Version 1 — Core
+
+```mermaid
+graph TD
+    A[Khởi động] --> B[Hỏi Trắc Nghiệm]
+    B --> C[Trả Lời Đúng]
+    C --> D[Giải Thích 3 Phần]
+    D --> E[Hướng Dẫn Atomic]
+    E --> F[Hoàn Tất]
+    B --> G[Trả Lời Sai]
+    G --> H[Đổi Câu Hỏi/Gợi Ý]
+    H --> I[Xem Đáp Án]
+    I --> D
+    style A fill:#FF9999,stroke:#333
+    style B fill:#99FF99,stroke:#333
+    style C fill:#9999FF,stroke:#333
+    style D fill:#FFFF99,stroke:#333
+    style E fill:#FF99FF,stroke:#333
+    style F fill:#99FFFF,stroke:#333
+    style G fill:#FFCC99,stroke:#333
+    style H fill:#CC99FF,stroke:#333
+    style I fill:#99CCFF,stroke:#333
+```
+
 ``` 
 ### **VAI TRÒ**
 
@@ -123,6 +146,31 @@ Khi nhận task:
 → Nếu SAI: **Tạo lại phản hồi**.
 ``` 
 ## 2. Version 2 — Pro
+
+```mermaid
+graph TD
+    A[Khởi động] --> B[Hỏi Trắc Nghiệm + Mermaid]
+    B --> C[Trả Lời Đúng]
+    C --> D[Giải Thích 3 Phần]
+    D --> E[Hướng Dẫn Atomic]
+    E --> F[Hoàn Tất]
+    B --> G[Trả Lời Sai/Thiếu]
+    G --> H[Đổi Câu Hỏi + Gợi Ý]
+    H --> I[Xem Đáp Án]
+    I --> D
+    J[Rẽ Nhánh] --> B
+    style A fill:#FF6666,stroke:#000
+    style B fill:#66FF66,stroke:#000
+    style C fill:#6666FF,stroke:#000
+    style D fill:#FFFF66,stroke:#000
+    style E fill:#FF66FF,stroke:#000
+    style F fill:#66FFFF,stroke:#000
+    style G fill:#FF9966,stroke:#000
+    style H fill:#9966FF,stroke:#000
+    style I fill:#66CCFF,stroke:#000
+    style J fill:#CCFF66,stroke:#000
+```
+
 ``` 
 ### **VAI TRÒ**
 
@@ -282,6 +330,33 @@ Giúp người học:
   `graph TD; A[Ngữ cảnh: Chọn item] --> B[Nhấn **Delete**]; B --> C[Item biến mất]; C --> D[Không còn trong thư mục].`
 ``` 
 ## 3. Version 3 — Pro+
+```mermaid
+graph TD
+    A[Khởi động] --> B[Hỏi Trắc Nghiệm + Mermaid]
+    B --> C[Trả Lời Đúng]
+    C --> D[Giải Thích 3 Phần]
+    D --> E[Hướng Dẫn Atomic]
+    E --> F[Hoàn Tất]
+    B --> G[Trả Lời Sai/Thiếu]
+    G --> H[Đổi Câu Hỏi + Gợi Ý]
+    H --> I[Xem Đáp Án]
+    I --> D
+    J[Rẽ Nhánh Bối Cảnh] --> B
+    K[Không Trả Lời] --> L[Tạm Dừng]
+    style A fill:#CC0033,stroke:#FFF
+    style B fill:#00CC33,stroke:#FFF
+    style C fill:#0033CC,stroke:#FFF
+    style D fill:#CCCC00,stroke:#FFF
+    style E fill:#CC00CC,stroke:#FFF
+    style F fill:#00CCCC,stroke:#FFF
+    style G fill:#CC6600,stroke:#FFF
+    style H fill:#6600CC,stroke:#FFF
+    style I fill:#00CC66,stroke:#FFF
+    style J fill:#66CC00,stroke:#FFF
+    style K fill:#CC3300,stroke:#FFF
+    style L fill:#33CC00,stroke:#FFF
+```
+
 ``` 
 ### **VAI TRÒ**
 
@@ -435,6 +510,37 @@ Khi nhận task:
 ``` 
 
 ## 4. Version 4 — Pro Max
+
+```mermaid
+graph TD
+    A[Khởi động + Hỏi Chế Độ] --> B[Hỏi Trắc Nghiệm + Mermaid]
+    B --> C[Trả Lời Đúng]
+    C --> D[Giải Thích 3 Phần]
+    D --> E[Hướng Dẫn Atomic]
+    E --> F[Hoàn Tất]
+    B --> G[Trả Lời Sai/Thiếu]
+    G --> H[Đổi Câu Hỏi + Gợi Ý]
+    H --> I[Xem Đáp Án]
+    I --> D
+    J[Rẽ Nhánh Bối Cảnh] --> B
+    K[Không Trả Lời] --> L[Tạm Dừng]
+    M[Lệnh Đặc Biệt] --> N[Xử Lý Lệnh]
+    N --> B
+    style A fill:#990033,stroke:#CCC,stroke-width:2px
+    style B fill:#009933,stroke:#CCC,stroke-width:2px
+    style C fill:#003399,stroke:#CCC,stroke-width:2px
+    style D fill:#999900,stroke:#CCC,stroke-width:2px
+    style E fill:#990099,stroke:#CCC,stroke-width:2px
+    style F fill:#009999,stroke:#CCC,stroke-width:2px
+    style G fill:#993300,stroke:#CCC,stroke-width:2px
+    style H fill:#330099,stroke:#CCC,stroke-width:2px
+    style I fill:#009933,stroke:#CCC,stroke-width:2px
+    style J fill:#339900,stroke:#CCC,stroke-width:2px
+    style K fill:#993300,stroke:#CCC,stroke-width:2px
+    style L fill:#003399,stroke:#CCC,stroke-width:2px
+    style M fill:#990066,stroke:#CCC,stroke-width:2px
+    style N fill:#669900,stroke:#CCC,stroke-width:2px
+```
 
 ```
 ### **VAI TRÒ**
