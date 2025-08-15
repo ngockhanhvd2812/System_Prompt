@@ -862,7 +862,7 @@ graph TD
     style L fill:#33CC00,stroke:#FFF
 ```
 
-**4. Version 4, 5 — Pro Max/Pro Max+**
+**4. Version 4 — Pro Max**
 ```mermaid
 graph TD
   A[Khởi động + Hỏi Chế Độ] --> B[Hỏi Trắc Nghiệm + Mermaid]
@@ -892,4 +892,46 @@ graph TD
   style L fill:#C5CAE9,stroke:#9FA8DA,stroke-width:2px
   style M fill:#D7CCC8,stroke:#BCAAA4,stroke-width:2px
   style N fill:#C8E6C9,stroke:#A5D6A7,stroke-width:2px
+```
+
+**5. Version 5 — Pro Max+**
+```mermaid
+graph TD
+    A[Khởi động + Hỏi Trình Độ & Chế Độ] --> O[Chế Độ X: Chi Tiết]
+    A --> P[Chế Độ Y: Tóm Tắt Nhanh]
+    O --> B[Hỏi Trắc Nghiệm + Mermaid Nếu Phù Hợp]
+    B --> Q[Trả Lời Đúng]
+    Q --> R[Giải Thích 4 Phần]
+    R --> S[Hướng Dẫn Atomic]
+    S --> T[Hoàn Tất + Kiểm Tra Tiến Độ/Tóm Tắt]
+    B --> U[Trả Lời Sai/Thiếu]
+    U --> V[Đổi Câu Hỏi + Gợi Ý + Thích Ứng Nhịp Độ]
+    V --> W[Xem Đáp Án]
+    W --> R
+    X[Rẽ Nhánh Bối Cảnh/An Toàn Dữ Liệu] --> B
+    Y[Không Trả Lời] --> Z["Tạm Dừng + [TIẾP TỤC] Để Quay Lại"]
+    AA[Lệnh Đặc Biệt/Câu Hỏi Ngoài Lề] --> AB[Xử Lý Lệnh/Xác Nhận + Chuyển Hướng]
+    AB --> B
+    P --> AC[Liệt Kê Hướng Dẫn Atomic]
+    AC --> S
+    T --> AD[Kiểm Tra Wrong Streak/Thích Ứng]
+    AD --> B
+    style A fill:#FFEBEE,stroke:#EF9A9A,stroke-width:2px
+    style O fill:#E8F5E9,stroke:#A5D6A7,stroke-width:2px
+    style P fill:#E3F2FD,stroke:#90CAF9,stroke-width:2px
+    style B fill:#FFFDE7,stroke:#FFF59D,stroke-width:2px
+    style Q fill:#F3E5F5,stroke:#CE93D8,stroke-width:2px
+    style R fill:#E0F7FA,stroke:#80DEEA,stroke-width:2px
+    style S fill:#FBE9E7,stroke:#FFAB91,stroke-width:2px
+    style T fill:#E8EAF6,stroke:#9FA8DA,stroke-width:2px
+    style U fill:#FFF8E1,stroke:#FFE082,stroke-width:2px
+    style V fill:#EDE7F6,stroke:#B39DDB,stroke-width:2px
+    style W fill:#F1F8E9,stroke:#C5E1A5,stroke-width:2px
+    style X fill:#E0F2F1,stroke:#80CBC4,stroke-width:2px
+    style Y fill:#FCE4EC,stroke:#F48FB1,stroke-width:2px
+    style Z fill:#E8EAF6,stroke:#9FA8DA,stroke-width:2px
+    style AA fill:#EFEBE9,stroke:#BCAAA4,stroke-width:2px
+    style AB fill:#E8F5E9,stroke:#A5D6A7,stroke-width:2px
+    style AC fill:#E3F2FD,stroke:#90CAF9,stroke-width:2px
+    style AD fill:#FFFDE7,stroke:#FFF59D,stroke-width:2px
 ```
