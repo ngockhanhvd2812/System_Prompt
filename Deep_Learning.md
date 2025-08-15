@@ -962,16 +962,17 @@ graph TD
     H --> I[Xem Đáp Án]
     I --> D
     J[Rẽ Nhánh] --> B
-    style A fill:#FF6666,stroke:#000
-    style B fill:#66FF66,stroke:#000
-    style C fill:#6666FF,stroke:#000
-    style D fill:#FFFF66,stroke:#000
-    style E fill:#FF66FF,stroke:#000
-    style F fill:#66FFFF,stroke:#000
-    style G fill:#FF9966,stroke:#000
-    style H fill:#9966FF,stroke:#000
-    style I fill:#66CCFF,stroke:#000
-    style J fill:#CCFF66,stroke:#000
+    style A fill:#FFE0E0,stroke:#FF9E9E,stroke-width:2px
+    style B fill:#E0FFE0,stroke:#9EFF9E,stroke-width:2px
+    style C fill:#E0E0FF,stroke:#9E9EFF,stroke-width:2px
+    style D fill:#FFF9C4,stroke:#FFF176,stroke-width:2px
+    style E fill:#F8BBD0,stroke:#F06292,stroke-width:2px
+    style F fill:#B2EBF2,stroke:#4DD0E1,stroke-width:2px
+    style G fill:#FFECB3,stroke:#FFD54F,stroke-width:2px
+    style H fill:#D1C4E9,stroke:#9575CD,stroke-width:2px
+    style I fill:#B3E5FC,stroke:#4FC3F7,stroke-width:2px
+    style J fill:#C8E6C9,stroke:#81C784,stroke-width:2px
+
 ```
 
 **3. Version 3 — Pro+**
@@ -988,18 +989,19 @@ graph TD
     I --> D
     J[Rẽ Nhánh Bối Cảnh] --> B
     K[Không Trả Lời] --> L[Tạm Dừng]
-    style A fill:#CC0033,stroke:#FFF
-    style B fill:#00CC33,stroke:#FFF
-    style C fill:#0033CC,stroke:#FFF
-    style D fill:#CCCC00,stroke:#FFF
-    style E fill:#CC00CC,stroke:#FFF
-    style F fill:#00CCCC,stroke:#FFF
-    style G fill:#CC6600,stroke:#FFF
-    style H fill:#6600CC,stroke:#FFF
-    style I fill:#00CC66,stroke:#FFF
-    style J fill:#66CC00,stroke:#FFF
-    style K fill:#CC3300,stroke:#FFF
-    style L fill:#33CC00,stroke:#FFF
+    style A fill:#FFCDD2,stroke:#E57373,stroke-width:2px
+    style B fill:#C8E6C9,stroke:#81C784,stroke-width:2px
+    style C fill:#BBDEFB,stroke:#64B5F6,stroke-width:2px
+    style D fill:#FFF9C4,stroke:#FFF176,stroke-width:2px
+    style E fill:#E1BEE7,stroke:#BA68C8,stroke-width:2px
+    style F fill:#B2EBF2,stroke:#4DD0E1,stroke-width:2px
+    style G fill:#FFE0B2,stroke:#FFB74D,stroke-width:2px
+    style H fill:#D1C4E9,stroke:#9575CD,stroke-width:2px
+    style I fill:#C5E1A5,stroke:#9CCC65,stroke-width:2px
+    style J fill:#B2DFDB,stroke:#4DB6AC,stroke-width:2px
+    style K fill:#F8BBD0,stroke:#F06292,stroke-width:2px
+    style L fill:#C5CAE9,stroke:#7986CB,stroke-width:2px
+
 ```
 
 **4. Version 4 — Pro Max**
@@ -1034,44 +1036,102 @@ graph TD
   style N fill:#C8E6C9,stroke:#A5D6A7,stroke-width:2px
 ```
 
-**5. Version 5, 6 — Pro Max+**
+**5. Version 5 — Pro Max+**
 ```mermaid
 graph TD
-    A[Khởi động + Hỏi Trình Độ & Chế Độ] --> O[Chế Độ X: Chi Tiết]
-    A --> P[Chế Độ Y: Tóm Tắt Nhanh]
-    O --> B[Hỏi Trắc Nghiệm + Mermaid Nếu Phù Hợp]
-    B --> Q[Trả Lời Đúng]
-    Q --> R[Giải Thích 4 Phần]
-    R --> S[Hướng Dẫn Atomic]
-    S --> T[Hoàn Tất + Kiểm Tra Tiến Độ/Tóm Tắt]
-    B --> U[Trả Lời Sai/Thiếu]
-    U --> V[Đổi Câu Hỏi + Gợi Ý + Thích Ứng Nhịp Độ]
-    V --> W[Xem Đáp Án]
-    W --> R
-    X[Rẽ Nhánh Bối Cảnh/An Toàn Dữ Liệu] --> B
-    Y[Không Trả Lời] --> Z["Tạm Dừng + [TIẾP TỤC] Để Quay Lại"]
-    AA[Lệnh Đặc Biệt/Câu Hỏi Ngoài Lề] --> AB[Xử Lý Lệnh/Xác Nhận + Chuyển Hướng]
-    AB --> B
-    P --> AC[Liệt Kê Hướng Dẫn Atomic]
-    AC --> S
-    T --> AD[Kiểm Tra Wrong Streak/Thích Ứng]
-    AD --> B
+    A[Khởi động + Hỏi Trình Độ & Chế Độ] --> B[Chế Độ X: Chi Tiết]
+    A --> C[Chế Độ Y: Tóm Tắt Nhanh]
+
+    B --> D[Hỏi Trắc Nghiệm + Mermaid Nếu Cần]
+    D --> E[Trả Lời Đúng]
+    E --> F[Giải Thích 4 Phần + MỞ RỘNG]
+    F --> G[Hướng Dẫn Atomic]
+    G --> H[Hoàn Tất + Kiểm Tra Tiến Độ]
+    D --> I[Trả Lời Sai/Thiếu]
+    I --> J[Đổi Câu Hỏi + Gợi Ý + Thích Ứng]
+    J --> K[Xem Đáp Án + Giải Thích]
+    K --> F
+
+    B --> L[Rẽ Nhánh Bối Cảnh/An Toàn Dữ Liệu]
+    B --> M[Không Trả Lời → Tạm Dừng]
+    B --> N[Lệnh Đặc Biệt] --> O[Xử Lý Lệnh]
+
+    C --> P[Liệt Kê Hướng Dẫn Atomic + MỞ RỘNG]
+    P --> G
+
     style A fill:#FFEBEE,stroke:#EF9A9A,stroke-width:2px
-    style O fill:#E8F5E9,stroke:#A5D6A7,stroke-width:2px
-    style P fill:#E3F2FD,stroke:#90CAF9,stroke-width:2px
-    style B fill:#FFFDE7,stroke:#FFF59D,stroke-width:2px
-    style Q fill:#F3E5F5,stroke:#CE93D8,stroke-width:2px
-    style R fill:#E0F7FA,stroke:#80DEEA,stroke-width:2px
-    style S fill:#FBE9E7,stroke:#FFAB91,stroke-width:2px
-    style T fill:#E8EAF6,stroke:#9FA8DA,stroke-width:2px
-    style U fill:#FFF8E1,stroke:#FFE082,stroke-width:2px
-    style V fill:#EDE7F6,stroke:#B39DDB,stroke-width:2px
-    style W fill:#F1F8E9,stroke:#C5E1A5,stroke-width:2px
-    style X fill:#E0F2F1,stroke:#80CBC4,stroke-width:2px
-    style Y fill:#FCE4EC,stroke:#F48FB1,stroke-width:2px
-    style Z fill:#E8EAF6,stroke:#9FA8DA,stroke-width:2px
-    style AA fill:#EFEBE9,stroke:#BCAAA4,stroke-width:2px
-    style AB fill:#E8F5E9,stroke:#A5D6A7,stroke-width:2px
-    style AC fill:#E3F2FD,stroke:#90CAF9,stroke-width:2px
-    style AD fill:#FFFDE7,stroke:#FFF59D,stroke-width:2px
+    style B fill:#E8F5E9,stroke:#A5D6A7,stroke-width:2px
+    style C fill:#E3F2FD,stroke:#90CAF9,stroke-width:2px
+    style D fill:#FFFDE7,stroke:#FFF59D,stroke-width:2px
+    style E fill:#F3E5F5,stroke:#CE93D8,stroke-width:2px
+    style F fill:#E0F7FA,stroke:#80DEEA,stroke-width:2px
+    style G fill:#FBE9E7,stroke:#FFAB91,stroke-width:2px
+    style H fill:#E8EAF6,stroke:#9FA8DA,stroke-width:2px
+    style I fill:#FFF8E1,stroke:#FFE082,stroke-width:2px
+    style J fill:#EDE7F6,stroke:#B39DDB,stroke-width:2px
+    style K fill:#F1F8E9,stroke:#C5E1A5,stroke-width:2px
+    style L fill:#E0F2F1,stroke:#80CBC4,stroke-width:2px
+    style M fill:#FCE4EC,stroke:#F48FB1,stroke-width:2px
+    style N fill:#EFEBE9,stroke:#BCAAA4,stroke-width:2px
+    style O fill:#DCEDC8,stroke:#AED581,stroke-width:2px
+    style P fill:#D1C4E9,stroke:#9575CD,stroke-width:2px
+
 ```
+
+**6. Version 6 — Pro Max++**
+
+```mermaid
+graph TD
+    A["Khởi động + Hỏi Trình Độ & Chế Độ"] --> B["Chế Độ X: Chi Tiết"]
+    A --> C["Chế Độ Y: Tóm Tắt Nhanh"]
+
+    B --> D["Hỏi Trắc Nghiệm + Mermaid nếu hợp lệ"]
+    D --> E["Trả Lời Đúng"]
+    E --> F["Giải Thích 4 Phần + Hậu Quả Thực Tế"]
+    F --> G["Hướng Dẫn Atomic"]
+    G --> H["Hoàn Tất"]
+    H --> I["Kiểm Tra Wrong Streak + Điều Chỉnh Nhịp Độ"]
+    D --> J["Trả Lời Sai/Thiếu"]
+    J --> K["Đổi Câu Hỏi + Gợi Ý"]
+    K --> L["Xem Đáp Án + Giải Thích"]
+    L --> F
+
+    B --> M["Rẽ Nhánh Bối Cảnh/An Toàn Dữ Liệu"]
+    B --> N["Không Trả Lời"] --> O["Tạm Dừng + Tiếp Tục"]
+    B --> P["Lệnh Đặc Biệt"] --> Q["Xử Lý Lệnh"]
+    B --> R["Câu Hỏi Ngoài Lề"] --> S["Trả Lời Ngắn + Quay Lại"]
+
+    C --> T["Liệt Kê Hướng Dẫn Atomic"]
+
+    %% Bright Pastel Color Styling
+    style A fill:#FFE5E5,stroke:#FF9999,stroke-width:3px,color:#333333
+    style B fill:#E5F7FF,stroke:#99DDFF,stroke-width:3px,color:#333333
+    style C fill:#F0E5FF,stroke:#CC99FF,stroke-width:3px,color:#333333
+    style D fill:#FFF5E5,stroke:#FFCC99,stroke-width:3px,color:#333333
+    style E fill:#E5FFE5,stroke:#99FF99,stroke-width:3px,color:#333333
+    style F fill:#FFE5F5,stroke:#FF99DD,stroke-width:3px,color:#333333
+    style G fill:#E5FFFF,stroke:#99FFFF,stroke-width:3px,color:#333333
+    style H fill:#F5FFE5,stroke:#DDFF99,stroke-width:3px,color:#333333
+    style I fill:#FFFEE5,stroke:#FFFF99,stroke-width:3px,color:#333333
+    style J fill:#FFE5CC,stroke:#FFAA66,stroke-width:3px,color:#333333
+    style K fill:#F5E5FF,stroke:#DDAAFF,stroke-width:3px,color:#333333
+    style L fill:#E5FFF5,stroke:#99FFCC,stroke-width:3px,color:#333333
+    style M fill:#E5F0FF,stroke:#99CCFF,stroke-width:3px,color:#333333
+    style N fill:#FFE5F0,stroke:#FF99CC,stroke-width:3px,color:#333333
+    style O fill:#F0E5F5,stroke:#CC99DD,stroke-width:3px,color:#333333
+    style P fill:#FFF0E5,stroke:#FFDD99,stroke-width:3px,color:#333333
+    style Q fill:#E5FFF0,stroke:#99FFAA,stroke-width:3px,color:#333333
+    style R fill:#F5F0E5,stroke:#DDCC99,stroke-width:3px,color:#333333
+    style S fill:#FFE5FA,stroke:#FF99EE,stroke-width:3px,color:#333333
+    style T fill:#F0F5E5,stroke:#CCDD99,stroke-width:3px,color:#333333
+
+    %% Light Theme Classes
+    classDef startNode fill:#FFE5E5,stroke:#FF9999,stroke-width:4px,color:#333333
+    classDef processNode fill:#E5F7FF,stroke:#99DDFF,stroke-width:3px,color:#333333
+    classDef decisionNode fill:#FFF5E5,stroke:#FFCC99,stroke-width:3px,color:#333333
+    classDef endNode fill:#E5FFE5,stroke:#99FF99,stroke-width:4px,color:#333333
+    
+    class A startNode
+    class H,T endNode
+    class D,N decisionNode
+``` 
