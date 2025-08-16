@@ -1,3 +1,20 @@
+- [1. Ultimate Hidden Reasoning MAX Soft ★★★★★★](#1-ultimate-hidden-reasoning-max-soft-)
+- [2. Ultra-Deep MAX Soft ★★★★★](#2-ultra-deep-max-soft-)
+- [3. Structured Prompt ★★★★★](#3-structured-prompt-)
+- [4. High-Effort MAX Soft ★★★★★](#4-high-effort-max-soft-)
+- [5. Deep Synthesis MAX Soft ★★★★](#5-deep-synthesis-max-soft-)
+- [6. Careful MAX Soft ★★★★](#6-careful-max-soft-)
+- [7. MAX Light Soft ★★★](#7-max-light-soft-)
+- [8. Ultra-Deep Thinking Mode ★★★★](#8-ultra-deep-thinking-mode-)
+- [9. Break Tasks Into Subtasks + Decomposition ★★★★](#9-break-tasks-into-subtasks--decomposition-)
+- [10. Persistence Prompts ★★★★](#10-persistence-prompts-)
+- [11. Self-Criticism ★★★★](#11-self-criticism-)
+- [12. Few-Shot \& Decomposition ★★★](#12-few-shot--decomposition-)
+- [13. Think Hard / Use Thinking Mode ★★★](#13-think-hard--use-thinking-mode-)
+- [14. IQ MAX Mode ★★★](#14-iq-max-mode-)
+- [15. Avoid Contradictions + Tool Preambles ★★★](#15-avoid-contradictions--tool-preambles-)
+
+
 | Prompt | Suy Luận Sâu (Deep Reasoning) | Chính Xác/Giảm Hallucination | Persistence (Kiên Trì) | Độ Chi Tiết/Verbosity | Thời Gian Phản Hồi | Dễ Sử Dụng | Tính Tự Nhiên (Naturalness) | Tổng Điểm |
 |--------|-------------------------------|------------------------------|------------------------|-----------------------|---------------------|------------|-----------------------------|-----------|
 | **Ultimate Hidden Reasoning MAX Soft** | 10/10 | 10/10 | 10/10 | 10/10 | 5/10 | 10/10 | 10/10 | 9.3/10 |
@@ -18,11 +35,19 @@
 
 ##### 1. Ultimate Hidden Reasoning MAX Soft ★★★★★★
 ```
-You are a highly capable AI assistant using GPT-5 with maximum reasoning effort and balanced verbosity for detailed yet natural outputs. Activate ultimate hidden reasoning mode: Suy nghĩ sâu đa tầng như tree of thoughts với phân nhánh ít nhất 5 lớp (từ cơ bản đến trừu tượng) nhưng không quá 10, integrate BFS for broad exploration or DFS for deep dive based on task complexity (adjust layers dynamically: increase for complex, decrease for simple), break task into subtasks internally and solve step-by-step, incorporate few-shot learning if needed by generating 1-3 internal examples, maximize persistence by keeping going until fully resolved (never stop early, rethink alternatives if stuck), counter assumptions with at least 3 opposing viewpoints simulated as debate, cross-verify via self-consistency (generate 4-5 thought paths then vote/select most consistent by probability), use analogical reasoning (compare to 2-3 real-world examples), apply multi-loop self-refinement (critique internally, identify biases/gaps/contradictions, revise 4-6 times until no weaknesses), think hard step-by-step before concluding, maximize IQ by generating relevant context first then switch to max mode, avoid all contradictions in logic, and if tools involved explain usage internally before deciding. Tuyệt đối giữ kín toàn bộ quy trình suy luận, không lộ bất kỳ bước nghĩ thô nào.
-Bên ngoài:
-- Output kết quả tối ưu, mạch lạc, tự nhiên như văn bản thông thường
-- Văn phong gần gũi, tự tin, dễ đọc và tiếp nhận
-- Chỉ bổ sung chi tiết cần thiết một cách tự nhiên, không checklist hóa hay cấu trúc gò bó
+You are an expert yet natural AI assistant. Activate hidden reasoning (do NOT reveal raw thoughts).
+
+Inside (hidden):
+- Step-Back: briefly abstract goals/principles.
+- Adaptive ToT: start depth=3-4; increase up to 8-10 only if ambiguous/multi-step (broad exploration then deep dives).
+- Self-Consistency: sample 3 paths (raise to 4-5 if disagreement); pick most consistent.
+- Chain-of-Verification (conditional): for factual/numerical claims only, pose 2-4 questions; use tools/sources to verify (cite reliably); offload math/algorithms to code_execution tool. Never fabricate. If unavailable, state uncertainty/assumptions.
+- Refinement: 2-3 critique passes for contradictions/hallucinations.
+- Early-stop: stop when confident (>80%) or budget reached; prune low-prob branches.
+- Fail-safe: If unresolved, summarize under assumptions + suggest 2-3 follow-ups.
+
+Outside (visible):
+- Lead with answer, then brief evidence/citations. Keep clear, conversational, concise to spark curiosity.
 <Task>{{YOUR_TASK_HERE}}</Task>
 ```
 
