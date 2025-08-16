@@ -14,24 +14,23 @@
 - [14. IQ MAX Mode ★★★](#14-iq-max-mode-)
 - [15. Avoid Contradictions + Tool Preambles ★★★](#15-avoid-contradictions--tool-preambles-)
 
-
-| Prompt | Suy Luận Sâu (Deep Reasoning) | Chính Xác/Giảm Hallucination | Persistence (Kiên Trì) | Độ Chi Tiết/Verbosity | Thời Gian Phản Hồi | Dễ Sử Dụng | Tính Tự Nhiên (Naturalness) | Tổng Điểm |
-|--------|-------------------------------|------------------------------|------------------------|-----------------------|---------------------|------------|-----------------------------|-----------|
-| **Ultimate Hidden Reasoning MAX Soft** | 10/10 | 10/10 | 10/10 | 10/10 | 5/10 | 10/10 | 10/10 | 9.3/10 |
-| **Ultra-Deep MAX Soft** | 9.5/10 | 9.5/10 | 9/10 | 8/10 | 6/10 | 7/10 | 9.5/10 | 8.4/10 |
-| **Structured Prompt** | 8.5/10 | 9/10 | 7.5/10 | 8.5/10 | 8/10 | 9/10 | 8/10 | 8.4/10 |
-| **High-Effort MAX Soft** | 9/10 | 9/10 | 8.5/10 | 7.5/10 | 6.5/10 | 7.5/10 | 9/10 | 8.1/10 |
-| **Deep Synthesis MAX Soft** | 8.5/10 | 8.5/10 | 8/10 | 7.5/10 | 7/10 | 8/10 | 8.5/10 | 8/10 |
-| **Careful MAX Soft** | 8/10 | 8.5/10 | 7.5/10 | 8/10 | 7.5/10 | 8.5/10 | 8/10 | 8/10 |
-| **MAX Light Soft** | 7.5/10 | 8/10 | 7/10 | 7/10 | 8/10 | 9/10 | 7.5/10 | 7.8/10 |
-| **Ultra-Deep Thinking Mode** | 9.5/10 | 8/10 | 9/10 | 7/10 | 6.5/10 | 7.5/10 | 7/10 | 7.8/10 |
-| **Break Tasks + Decomposition** | 8/10 | 8/10 | 8/10 | 8/10 | 7.5/10 | 8.5/10 | 7.5/10 | 7.9/10 |
-| **Persistence Prompts** | 7/10 | 7.5/10 | 9.5/10 | 7.5/10 | 8/10 | 8/10 | 7/10 | 7.8/10 |
-| **Self-Criticism** | 7.5/10 | 9.5/10 | 7/10 | 8/10 | 7.5/10 | 8.5/10 | 7.5/10 | 7.9/10 |
-| **Few-Shot & Decomposition** | 8/10 | 8/10 | 7/10 | 7.5/10 | 7/10 | 7/10 | 7/10 | 7.4/10 |
-| **Think Hard / Use Thinking Mode** | 7/10 | 7/10 | 6.5/10 | 7/10 | 8.5/10 | 9/10 | 6.5/10 | 7.4/10 |
-| **IQ MAX Mode** | 6.5/10 | 7/10 | 6/10 | 6.5/10 | 7.5/10 | 7.5/10 | 6.5/10 | 6.8/10 |
-| **Avoid Contradictions + Tool Preambles** | 6/10 | 8/10 | 6/10 | 8.5/10 | 9/10 | 9/10 | 8/10 | 7.8/10 |
+| Prompt | Suy Luận Sâu | Chính Xác/Giảm Hallucination | Persistence | Độ Chi Tiết | Thời Gian Phản Hồi | Dễ Sử Dụng | Tính Tự Nhiên | Trường Hợp Sử Dụng Tốt Nhất (Best Use Case) | Tổng Điểm |
+|---|---|---|---|---|---|---|---|---|---|
+| **Ultimate Hidden Reasoning MAX Soft** | 10/10 | 10/10 | 10/10 | 10/10 | 5/10 | 10/10 | 10/10 | Phân tích chuyên sâu, giải quyết vấn đề phức tạp, tạo ra các tài liệu yêu cầu chất lượng cao nhất. | 9.3/10 |
+| **Ultra-Deep MAX Soft** | 9.5/10 | 9.5/10 | 9/10 | 8/10 | 6/10 | 7/10 | 9.5/10 | Nghiên cứu, viết lách sáng tạo đòi hỏi chiều sâu, tìm kiếm các giải pháp đột phá. | 8.4/10 |
+| **Structured Prompt** | 8.5/10 | 9/10 | 7.5/10 | 8.5/10 | 8/10 | 9/10 | 8/10 | Tạo báo cáo, tóm tắt văn bản, các tác vụ cần kết quả đầu ra có cấu trúc rõ ràng, dễ đoán. | 8.4/10 |
+| **High-Effort MAX Soft** | 9/10 | 9/10 | 8.5/10 | 7.5/10 | 6.5/10 | 7.5/10 | 9/10 | Giải quyết các vấn đề đòi hỏi nỗ lực cao, tìm kiếm giải pháp đa chiều và đáng tin cậy. | 8.1/10 |
+| **Deep Synthesis MAX Soft** | 8.5/10 | 8.5/10 | 8/10 | 7.5/10 | 7/10 | 8/10 | 8.5/10 | Tổng hợp thông tin từ nhiều nguồn, phân tích so sánh, đánh giá các luận điểm trái chiều. | 8/10 |
+| **Careful MAX Soft** | 8/10 | 8.5/10 | 7.5/10 | 8/10 | 7.5/10 | 8.5/10 | 8/10 | Các tác vụ hàng ngày cần độ tin cậy, kiểm tra lại thông tin, soạn thảo email/văn bản quan trọng. | 8/10 |
+| **MAX Light Soft** | 7.5/10 | 8/10 | 7/10 | 7/10 | 8/10 | 9/10 | 7.5/10 | Trả lời nhanh, brainstorming ý tưởng cơ bản, các tác vụ không yêu cầu độ chính xác tuyệt đối. | 7.8/10 |
+| **Ultra-Deep Thinking Mode** | 9.5/10 | 8/10 | 9/10 | 7/10 | 6.5/10 | 7.5/10 | 7/10 | Giải các bài toán logic, lập kế hoạch chi tiết, debug code, các nhiệm vụ cần sự kiên trì cao. | 7.8/10 |
+| **Break Tasks + Decomposition** | 8/10 | 8/10 | 8/10 | 8/10 | 7.5/10 | 8.5/10 | 7.5/10 | Lập kế hoạch dự án, hướng dẫn từng bước (step-by-step tutorial), giải các bài toán lớn. | 7.9/10 |
+| **Persistence Prompts**| 7/10 | 7.5/10 | 9.5/10 | 7.5/10 | 8/10 | 8/10 | 7/10 | Khi AI có xu hướng bỏ cuộc hoặc trả lời hời hợt; các tác vụ dài và cần theo đuổi đến cùng. | 7.8/10 |
+| **Self-Criticism**| 7.5/10 | 9.5/10 | 7/10 | 8/10 | 7.5/10 | 8.5/10 | 7.5/10 | Fact-checking, biên tập và cải thiện bản nháp, rà soát lỗi sai và các điểm chưa nhất quán. | 7.9/10 |
+| **Few-Shot & Decomposition**| 8/10 | 8/10 | 7/10 | 7.5/10 | 7/10 | 7/10 | 7/10 | Các tác vụ có định dạng cụ thể, dạy AI làm theo một mẫu nhất định mà không cần hướng dẫn dài. | 7.4/10 |
+| **Think Hard / Use Thinking Mode**| 7/10 | 7/10 | 6.5/10 | 7/10 | 8.5/10 | 9/10 | 6.5/10 | Cải thiện nhanh chất lượng câu trả lời cho các câu hỏi thông thường, một bản nâng cấp nhẹ. | 7.4/10 |
+| **IQ MAX Mode**| 6.5/10 | 7/10 | 6/10 | 6.5/10 | 7.5/10 | 7.5/10 | 6.5/10 | Tăng nhẹ khả năng suy luận cho các tác vụ đơn giản, thử nghiệm nhanh để có câu trả lời tốt hơn. | 6.8/10 |
+| **Avoid Contradictions + Tool Preambles**| 6/10 | 8/10 | 6/10 | 8.5/10 | 9/10 | 9/10 | 8/10 | Khi cần AI giải thích cách sử dụng công cụ, tạo ra các câu trả lời dài, chi tiết và nhất quán. | 7.8/10 |
 
 ##### 1. Ultimate Hidden Reasoning MAX Soft ★★★★★★
 ```
