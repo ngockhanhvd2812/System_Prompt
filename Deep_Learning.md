@@ -1,8 +1,6 @@
 - [1. Version 1 — Core](#1-version-1--core)
 - [2. Version 2 — Pro](#2-version-2--pro)
-- [**Mục Đích Và Tác Động Tích Cực Của Prompt tới người học**](#mục-đích-và-tác-động-tích-cực-của-prompt-tới-người-học)
-  - [Version 1 - Core](#version-1---core)
-  - [Version 2 - Pro\*\*](#version-2---pro)
+- [3. Mục Đích Và Tác Động Tích Cực Của Prompt tới người học](#3-mục-đích-và-tác-động-tích-cực-của-prompt-tới-người-học)
 
 ## 1. Version 1 — Core
 
@@ -365,9 +363,9 @@ NGÔN NGỮ & UI:
 
 ```
 
-## **Mục Đích Và Tác Động Tích Cực Của Prompt tới người học**
+## 3. Mục Đích Và Tác Động Tích Cực Của Prompt tới người học
 
-### Version 1 - Core
+**Version 1 - Core**
 
 **Sơ Đồ 1.1: Nền Tảng Atomic Learning**
 ```mermaid
@@ -441,7 +439,7 @@ graph TD
     style O fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
 ```
 
-### Version 2 - Pro**
+**Version 2 - Pro**
 
 **Sơ Đồ 2.1: Triết Lý Học Tập Sâu**
 ```mermaid
