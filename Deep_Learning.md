@@ -367,206 +367,250 @@ NGÔN NGỮ & UI:
 
 **Version 1 - Core**
 
-**Sơ Đồ 1.1: Nền Tảng Atomic Learning**
+**🎯 Sơ Đồ 1.1: Nền Tảng Học Tập Nguyên Tử**
 ```mermaid
 graph TD
-    A[Nhiệm vụ phức tạp] --> B[Chia thành bước siêu nhỏ]
-    B --> C[1 thao tác/bước]
-    C --> D[Hành động rõ ràng]
-    C --> E[Kết quả kỳ vọng]
-    C --> F[Cách tự kiểm tra]
+    A[🎯 Nhiệm vụ phức tạp] --> B[⚡ Chia thành bước siêu nhỏ]
+    B --> C[🔍 1 thao tác mỗi bước]
+    C --> D[📋 Hành động rõ ràng]
+    C --> E[🎯 Kết quả kỳ vọng]
+    C --> F[✅ Cách tự kiểm tra]
     
-    style A fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#4ecdc4,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#45b7d1,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#96ceb4,stroke:#333,stroke-width:2px
-    style E fill:#feca57,stroke:#333,stroke-width:2px
-    style F fill:#ff9ff3,stroke:#333,stroke-width:2px
+    D --> G[💡 Dễ hiểu và thực hiện]
+    E --> H[📊 Đo lường được tiến độ]
+    F --> I[🔄 Tự đánh giá liên tục]
+    
+    style A fill:#FF6B6B,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style B fill:#4ECDC4,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style C fill:#45B7D1,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style D fill:#96CEB4,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style E fill:#FECA57,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style F fill:#FF9FF3,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style G fill:#A8E6CF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style H fill:#FFD93D,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style I fill:#B4A7D6,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 ```
 
-**Sơ Đồ 1.2: Phương Pháp Socratic Method**
+**🤔 Sơ đồ 1.2: Phương Pháp Hỏi Đáp Socrates**
 ```mermaid
 graph TD
-    A[Bắt đầu bước mới] --> B[Câu hỏi trắc nghiệm 4 đáp án]
-    B --> C{Người học trả lời}
-    C -->|Đúng| D[Giải thích 3 phần]
-    C -->|Sai lần 1| E[Câu hỏi đơn giản hơn]
-    C -->|Sai lần 2| F[Gợi ý hoặc đáp án]
+    A[🚀 Bắt đầu bước mới] --> B[❓ Câu hỏi trắc nghiệm 4 đáp án]
+    B --> C{🤔 Người học trả lời}
+    C -->|✅ Đúng| D[💡 Giải thích 3 phần chi tiết]
+    C -->|❌ Sai lần 1| E[🎯 Câu hỏi đơn giản hơn]
+    C -->|❌ Sai lần 2| F[💭 Gợi ý hoặc đưa đáp án]
     
-    D --> G[Hướng dẫn thao tác Atomic]
+    D --> G[📝 Hướng dẫn thao tác từng bước]
     E --> C
     F --> G
-    G --> H[Chờ HOÀN TẤT]
-    H --> I[Chuyển bước tiếp theo]
+    G --> H[⏳ Chờ phản hồi HOÀN TẤT]
+    H --> I[➡️ Chuyển bước tiếp theo]
     
-    style A fill:#6c5ce7,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#a29bfe,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#fd79a8,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#fdcb6e,stroke:#333,stroke-width:2px
-    style F fill:#e17055,stroke:#333,stroke-width:2px,color:#fff
+    J[🎨 Cấu trúc giải thích] --> K[🔍 Tại sao đúng/sai]
+    J --> L[📚 Kiến thức nền tảng]
+    J --> M[🚀 Ứng dụng thực tế]
+    
+    style A fill:#6C5CE7,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style B fill:#A29BFE,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style C fill:#FD79A8,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style D fill:#00B894,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style E fill:#FDCB6E,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style F fill:#E17055,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style G fill:#74B9FF,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style H fill:#FD79A8,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style I fill:#00CEC9,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style J fill:#FDCB6E,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style K fill:#DDA0DD,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style L fill:#98FB98,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style M fill:#F0E68C,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 ```
 
-**Sơ Đồ 1.3: Tổng Thể Prompt 1**
-```mermaid
-graph TD
-    A[Gia Sư AI Giả Lập Quan Sát] --> B[Nguyên Tắc Atomic Learning]
-    A --> C[Phương Pháp Socratic Method]
-    
-    B --> D[Chia bước siêu nhỏ]
-    B --> E[Kiểm tra từng bước]
-    B --> F[Chỉ chuyển khi HOÀN TẤT]
-    
-    C --> G[Câu hỏi có từ khóa bước tiếp]
-    C --> H[4 đáp án, 1 đúng]
-    C --> I[Cấu trúc giải thích 3 phần]
-    
-    D --> J[Tác động: Học chắc chắn]
-    E --> K[Tác động: Không bỏ sót]
-    F --> L[Tác động: Thực hành đúng]
-    G --> M[Tác động: Tập trung đích]
-    H --> N[Tác động: Rèn tư duy phân biệt]
-    I --> O[Tác động: Hiểu sâu nguyên nhân lỗi]
-    
-    style A fill:#2d3436,stroke:#333,stroke-width:3px,color:#fff
-    style B fill:#0984e3,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#6c5ce7,stroke:#333,stroke-width:2px,color:#fff
-    style J fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style K fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style L fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style M fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style N fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style O fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-```
+---
 
 **Version 2 - Pro**
 
-**Sơ Đồ 2.1: Triết Lý Học Tập Sâu**
+**🎓 Sơ Đồ 2.1: Triết Lý Học Tập Sâu**
 ```mermaid
 graph TD
-    A[Khái niệm] --> B[Bản chất]
-    B --> C[Thao tác]
+    A[📖 Khái niệm cơ bản] --> B[🔬 Hiểu bản chất sâu xa]
+    B --> C[⚡ Thực hành thao tác]
     
-    D[Học là kiểm tra liên tục] --> E[6-8 đáp án mỗi bước]
-    E --> F[Edge-case]
-    E --> G[Tối ưu hóa]
-    E --> H[Phản biện]
+    D[🎯 Học = Kiểm tra liên tục] --> E[🎲 6-8 đáp án mỗi bước]
+    E --> F[⚠️ Trường hợp đặc biệt]
+    E --> G[🚀 Tối ưu hóa hiệu quả]
+    E --> H[🤔 Tư duy phản biện]
     
-    I[Mastery Progression] --> J[Chỉ advance khi demonstrate mastery]
-    J --> K[Paraphrase + Ví dụ ứng dụng]
+    I[🏆 Tiến trình Thành thạo] --> J[✅ Chỉ tiến khi thực sự hiểu]
+    J --> K[💬 Diễn giải + Ví dụ ứng dụng]
     
-    style A fill:#e84393,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#fd79a8,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#fdcb6e,stroke:#333,stroke-width:2px
-    style D fill:#74b9ff,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#0984e3,stroke:#333,stroke-width:2px,color:#fff
-    style I fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style J fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
+    L[🎨 Tác động tích cực] --> M[🧠 Tư duy hệ thống]
+    L --> N[🏗️ Nền móng vững chắc]
+    L --> O[💡 Khuyến khích sáng tạo]
+    
+    style A fill:#E84393,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style B fill:#FD79A8,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style C fill:#FDCB6E,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style D fill:#74B9FF,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style E fill:#0984E3,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style F fill:#E17055,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style G fill:#00B894,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style H fill:#6C5CE7,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style I fill:#00B894,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style J fill:#00CEC9,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style K fill:#A29BFE,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style L fill:#FF6B6B,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style M fill:#4ECDC4,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style N fill:#96CEB4,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style O fill:#FECA57,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 ```
 
-**Sơ Đồ 2.2: Hệ Thống Chấm Điểm Động Lực**
+**🏆 Sơ Đồ 2.2: Hệ Thống Chấm Điểm Thông Minh**
 ```mermaid
 graph TD
-    A[Câu trả lời của học viên] --> B{Chấm điểm 0-10}
+    A[💬 Câu trả lời học viên] --> B{🎯 Chấm điểm 0-10}
     
-    B -->|0-4| C[Sai hoàn toàn/thiếu khái niệm]
-    B -->|5| D[Đúng cơ bản]
-    B -->|6-7| E[Đúng + giải thích]
-    B -->|8-10| F[Đúng + giải thích sâu + góc nhìn mới]
+    B -->|0-4| C[❌ Sai hoàn toàn/thiếu khái niệm]
+    B -->|5| D[⭐ Đúng cơ bản]
+    B -->|6-7| E[⭐⭐ Đúng + giải thích tốt]
+    B -->|8-10| F[⭐⭐⭐ Đúng + hiểu sâu + góc nhìn mới]
     
-    F --> G[Bonus +1-2 điểm]
-    G --> H[Insight sâu]
-    G --> I[Analogy sát ngữ cảnh]
-    G --> J[Edge-case + cách khắc phục]
-    G --> K[Góc nhìn đa chiều]
+    F --> G[🎁 Điểm thưởng +1-2]
+    G --> H[💡 Hiểu biết sâu sắc]
+    G --> I[🔗 So sánh sinh động]
+    G --> J[⚠️ Trường hợp đặc biệt + giải pháp]
+    G --> K[🌈 Góc nhìn đa chiều]
     
-    L[Gating System] --> M[Điểm ≥6/10]
-    M --> N[Paraphrase bằng lời mình]
-    N --> O[Trả lời câu hỏi đào sâu]
-    O --> P[Mỗi đáp án kèm lý do]
-    P --> Q[Tự tin ≥80%]
-    Q --> R[Được chuyển bước]
+    L[🚪 Hệ thống Kiểm soát] --> M[📊 Điểm ≥6/10]
+    M --> N[💭 Diễn giải bằng lời mình]
+    N --> O[🤔 Trả lời câu hỏi sâu]
+    O --> P[📝 Mỗi đáp án kèm lý do]
+    P --> Q[💪 Tự tin ≥80%]
+    Q --> R[✅ Được chuyển bước]
     
-    style A fill:#6c5ce7,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#a29bfe,stroke:#333,stroke-width:2px,color:#fff
-    style F fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style G fill:#fdcb6e,stroke:#333,stroke-width:2px
-    style L fill:#e17055,stroke:#333,stroke-width:2px,color:#fff
-    style R fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
+    S[⚡ Hệ thống Phạt] --> T[➖ Trừ điểm đoán mò]
+    S --> U[➖ Không có lý do rõ ràng]
+    
+    style A fill:#6C5CE7,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style B fill:#A29BFE,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style C fill:#E17055,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style D fill:#FDCB6E,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style E fill:#74B9FF,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style F fill:#00B894,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style G fill:#FECA57,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style H fill:#DDA0DD,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style I fill:#98FB98,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style J fill:#F0E68C,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style K fill:#FFB6C1,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style L fill:#FF6B6B,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style M fill:#4ECDC4,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style R fill:#00CEC9,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style S fill:#E84393,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style T fill:#FD79A8,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style U fill:#FD79A8,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
 ```
 
-**Sơ Đồ 2.3: Quy Trình Đào Sâu và Thử Thách**
+**🔄 Sơ Đồ 2.3: Quy Trình Thử Thách Và Đào Sâu**
 ```mermaid
 graph TD
-    A[Bắt đầu thử thách] --> B[Câu hỏi CHALLENGE 6-8 đáp án]
-    B --> C[Có edge-case, tối ưu, phản biện]
-    C --> D{Học viên trả lời}
+    A[🎯 Bắt đầu thử thách] --> B[🎲 Câu hỏi THÁCH THỨC 6-8 đáp án]
+    B --> C[⚠️ Có trường hợp đặc biệt, tối ưu, phản biện]
+    C --> D{🤔 Học viên trả lời}
     
-    D -->|Sai/Thiếu| E[Vòng lặp đào sâu]
-    D -->|Đúng| F[Câu hỏi đào sâu Probing]
+    D -->|❌ Sai/Thiếu| E[🔄 Vòng lặp đào sâu]
+    D -->|✅ Đúng| F[🔍 Câu hỏi đào sâu]
     
-    E --> G[Giải thích 4 phần]
-    E --> H[Câu hỏi phụ đơn giản hơn]
-    H --> I{Trả lời đúng câu phụ?}
-    I -->|Không| J[Micro-quiz + analogy]
-    I -->|Có| K[Quay lại câu CHALLENGE]
+    E --> G[💡 Giải thích 4 phần chi tiết]
+    E --> H[❓ Câu hỏi phụ đơn giản hơn]
+    H --> I{✅ Trả lời đúng câu phụ?}
+    I -->|❌ Không| J[🎯 Câu hỏi siêu nhỏ + so sánh]
+    I -->|✅ Có| K[🔄 Quay lại câu THÁCH THỨC]
     
-    F --> L{Câu trả lời thuyết phục?}
-    L -->|Không| M[Đào sâu thêm góc nhìn mới]
-    L -->|Có| N[Áp dụng cấu trúc 4 phần]
-    N --> O[Hướng dẫn Atomic]
-    O --> P[Chờ HOÀN TẤT]
+    F --> L{💭 Câu trả lời thuyết phục?}
+    L -->|❌ Chưa| M[🌈 Đào sâu thêm góc nhìn mới]
+    L -->|✅ Có| N[📋 Áp dụng cấu trúc 4 phần]
+    N --> O[⚡ Hướng dẫn từng bước nhỏ]
+    O --> P[⏳ Chờ phản hồi HOÀN TẤT]
     
-    style A fill:#2d3436,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#e84393,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#fd79a8,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#fdcb6e,stroke:#333,stroke-width:2px
-    style F fill:#74b9ff,stroke:#333,stroke-width:2px,color:#fff
-    style N fill:#00b894,stroke:#333,stroke-width:2px,color:#fff
-    style O fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
+    Q[🎨 Cấu trúc 4 phần] --> R[🔍 Tại sao đúng/sai]
+    Q --> S[📚 Kiến thức nền]
+    Q --> T[🚀 Ứng dụng thực tế]
+    Q --> U[💡 Mẹo nhớ lâu]
+    
+    style A fill:#2D3436,stroke:#FFFFFF,stroke-width:3px,color:#FFFFFF
+    style B fill:#E84393,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style C fill:#FD79A8,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style D fill:#6C5CE7,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style E fill:#FDCB6E,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style F fill:#74B9FF,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style G fill:#A29BFE,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style J fill:#E17055,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style N fill:#00B894,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style O fill:#00CEC9,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style P fill:#4ECDC4,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style Q fill:#FF6B6B,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style R fill:#DDA0DD,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style S fill:#98FB98,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style T fill:#F0E68C,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style U fill:#FFB6C1,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 ```
 
-**Sơ Đồ 2.4: Tổng Thể Prompt 2 - Hệ Sinh Thái Học Tập**
+**🌟 SƠ ĐỒ TỔNG QUÁT: HỆ SINH THÁI GIA SƯ AI THÔNG MINH**
 ```mermaid
 graph TD
-    A[Gia Sư AI MASTERy MODE] --> B[Triết lý: Khái niệm > Bản chất > Thao tác]
-    A --> C[Học là kiểm tra liên tục]
-    A --> D[Mastery Progression Adaptive]
-    A --> E[Chấm điểm động lực]
+    A[🤖 GIA SƯ AI THÔNG MINH] --> B[📚 Phiên bản Cơ bản - CORE]
+    A --> C[🚀 Phiên bản Nâng cao - PRO]
     
-    B --> F[Không chuyển nếu chưa nắm chắc]
-    C --> G[Mọi bước có câu hỏi thử thách 6-8 đáp án]
-    D --> H[Chỉ advance khi demonstrate mastery]
-    E --> I[Thưởng insight sâu, trừ đoán mò]
+    B --> D[⚡ Học tập Nguyên tử]
+    B --> E[🤔 Phương pháp Socrates]
+    B --> F[✅ Kiểm tra từng bước]
     
-    G --> J[Edge-case: Rủi ro/ngoại lệ]
-    G --> K[Tối ưu: Phím tắt/chiến lược]
-    G --> L[Phản biện: Counterfactual]
+    C --> G[🔬 Triết lý: Khái niệm → Bản chất → Thao tác]
+    C --> H[🎯 Học = Kiểm tra liên tục]
+    C --> I[🏆 Tiến trình Thành thạo Thích ứng]
+    C --> J[🎁 Chấm điểm Thông minh]
     
-    H --> M[Paraphrase + Ví dụ ứng dụng]
-    H --> N[Điểm ≥6/10 + Tự tin ≥80%]
+    D --> K[🎯 Chia nhỏ nhiệm vụ phức tạp]
+    E --> L[❓ Câu hỏi 4 đáp án + Giải thích 3 phần]
+    F --> M[⏳ Chờ HOÀN TẤT mới chuyển bước]
     
-    I --> O[Bonus cho analogy sát ngữ cảnh]
-    I --> P[Bonus cho góc nhìn đa chiều]
-    I --> Q[Penalty cho đoán mò]
+    G --> N[🚫 Không chuyển nếu chưa nắm chắc]
+    H --> O[🎲 Mọi bước có câu hỏi thách thức 6-8 đáp án]
+    I --> P[✅ Chỉ tiến khi thực sự thành thạo]
+    J --> Q[🎁 Thưởng hiểu sâu, phạt đoán mò]
     
-    R[Tác động tích cực] --> S[Tư duy hệ thống đa chiều]
-    R --> T[Xây dựng nền móng vững chắc]
-    R --> U[Khuyến khích sáng tạo và hiểu bản chất]
-    R --> V[Chặn học tủ, học nhanh]
-    R --> W[Động viên: Sai là cơ hội học sâu]
-    R --> X[Gamification: Điểm số, streak, mastery]
+    O --> R[⚠️ Trường hợp đặc biệt: Rủi ro/ngoại lệ]
+    O --> S[🚀 Tối ưu: Phím tắt/chiến lược]
+    O --> T[🤔 Phản biện: Tư duy ngược]
     
-    style A fill:#2d3436,stroke:#333,stroke-width:3px,color:#fff
-    style B fill:#e84393,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#fd79a8,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#74b9ff,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#fdcb6e,stroke:#333,stroke-width:2px
-    style R fill:#00b894,stroke:#333,stroke-width:3px,color:#fff
-    style S fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
-    style T fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
-    style U fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
-    style V fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
-    style W fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
-    style X fill:#00cec9,stroke:#333,stroke-width:2px,color:#fff
+    P --> U[💭 Diễn giải + Ví dụ ứng dụng]
+    P --> V[📊 Điểm ≥6/10 + Tự tin ≥80%]
+    
+    Q --> W[🎁 Thưởng cho so sánh sinh động]
+    Q --> X[🌈 Thưởng cho góc nhìn đa chiều]
+    Q --> Y[➖ Phạt cho đoán mò]
+    
+    Z[🎨 TÁC ĐỘNG TÍCH CỰC] --> AA[🧠 Tư duy hệ thống đa chiều]
+    Z --> BB[🏗️ Xây dựng nền móng vững chắc]
+    Z --> CC[💡 Khuyến khích sáng tạo và hiểu bản chất]
+    Z --> DD[🚫 Chặn học tủ, học nhanh]
+    Z --> EE[💪 Động viên: Sai là cơ hội học sâu]
+    Z --> FF[🎮 Trò chơi hóa: Điểm số, chuỗi, thành thạo]
+    
+    style A fill:#2D3436,stroke:#FFFFFF,stroke-width:4px,color:#FFFFFF
+    style B fill:#0984E3,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style C fill:#E84393,stroke:#2C3E50,stroke-width:3px,color:#FFFFFF
+    style D fill:#4ECDC4,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style E fill:#6C5CE7,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style F fill:#00B894,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style G fill:#FD79A8,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style H fill:#74B9FF,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style I fill:#FDCB6E,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style J fill:#A29BFE,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style Z fill:#FF6B6B,stroke:#2C3E50,stroke-width:4px,color:#FFFFFF
+    style AA fill:#00CEC9,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style BB fill:#96CEB4,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style CC fill:#FECA57,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style DD fill:#E17055,stroke:#2C3E50,stroke-width:2px,color:#FFFFFF
+    style EE fill:#DDA0DD,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+    style FF fill:#98FB98,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 ```
