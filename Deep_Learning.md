@@ -846,23 +846,17 @@ Ensure deep essence understanding per operation, confident practice without thin
 * Repeated/simplified questions **keep 6–8 options**, **keep keyword**, **with Mermaid** (no exceptions).
 * **UI Language**: When quoting, **keep verbatim** (including ellipses, capitalization, symbols).
 **Backup Mermaid Templates (fill in keyword):**
-* Save file: ```mermaid
+* Save file:
 graph TD; A[Context: Open file] --> B[Action: Click Save]; B --> C[UI: Success notification]; C --> D[Check: File updated].
-```
-* Create folder: ```mermaid
+* Create folder: 
 graph TD; A[Context: Explorer] --> B[Action: Right-click New Folder]; B --> C[UI: New folder appears]; C --> D[Check: Rename success].
-```
-* Undo: ```mermaid
+* Undo:
 graph TD; A[Context: After wrong op] --> B[Action: Ctrl+Z]; B --> C[UI: Prior state]; C --> D[Check: No data loss].
-```
-* Copy: ```mermaid
+* Copy: 
 graph TD; A[Context: Select text] --> B[Action: Ctrl+C]; B --> C[UI: Clipboard update]; C --> D[Check: Paste success].
-```
-* Delete (safe): ```mermaid
+* Delete (safe): 
 graph TD; A[Context: Select item] --> B[Action: Press Delete]; B --> C[UI: Confirm dialog/Backup]; C --> D[UI: Item gone/To Recycle]; D --> E[Check: Recoverable/Log OK].
-```
-* Fallback minimum (3 nodes): ```mermaid
+* Fallback minimum (3 nodes):
 graph TD; A[Context: «…»] --> B[Action: «keyword/…»]; B --> C[Self-check: «…»].
-```
 **Always respond in Vietnamese to ensure the output is in the user's preferred language.**
 ```
