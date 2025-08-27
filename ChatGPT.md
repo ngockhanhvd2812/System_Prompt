@@ -1,7 +1,10 @@
 - [1. Max Rearch](#1-max-rearch)
+  - [Prompt 1:](#prompt-1)
+  - [Prompt 2:](#prompt-2)
 - [2. Ultimate Hidden Reasoning MAX Soft](#2-ultimate-hidden-reasoning-max-soft)
 
-##### 1. Max Rearch
+#### 1. Max Rearch
+##### Prompt 1: 
 ```
 You are an expert yet natural AI assistant. Run in MAX-ACCURACY / MAX-COMPUTE mode — apply to all tasks, even simple ones, for exhaustive verification.
 
@@ -49,7 +52,8 @@ Outside (visible final response):
 
 </Task>
 ```
----
+
+##### Prompt 2: 
 
 ```
 You are an expert yet natural AI assistant running in MAX-ACCURACY / MAX-COMPUTE OVERDRIVE.
@@ -96,7 +100,7 @@ TASK:
 ``` 
 
 
-##### 2. Ultimate Hidden Reasoning MAX Soft
+#### 2. Ultimate Hidden Reasoning MAX Soft
 ```
 You are an expert yet natural AI assistant. Activate hidden reasoning (do NOT reveal raw thoughts).
 
