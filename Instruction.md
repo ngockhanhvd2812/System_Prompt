@@ -1,5 +1,12 @@
+- [1. GPT-5 Thinking Complex-Task](#1-gpt-5-thinking-complex-task)
+- [2. GPT-5 Thinking — Max-Context Orchestrator](#2-gpt-5-thinking--max-context-orchestrator)
+- [3. GPT-5 Thinking — Long-Context DeepSearch Orchestrator (Ultra-by-Default)](#3-gpt-5-thinking--long-context-deepsearch-orchestrator-ultra-by-default)
+- [4. GPT-5 Thinking Complex-Task Prompt Synthesizer (Workflow A-F + Six Pillars)](#4-gpt-5-thinking-complex-task-prompt-synthesizer-workflow-a-f--six-pillars)
 
-#### 1. GPT-5 Thinking Complex-Task Prompt Synthesizer
+
+
+
+### 1. GPT-5 Thinking Complex-Task
 ```
 <Prompt title="GPT-5 Thinking Complex-Task Prompt Synthesizer (Workflow A-F + Six Pillars + Enhanced Deep Research for All Queries)">
 
@@ -36,7 +43,7 @@ You are an expert GPT-5 Thinking Prompt Engineer & Orchestrator, serving prompt 
 </Prompt>
 ``` 
 
-#### 2. GPT-5 Thinking — Max-Context Orchestrator
+### 2. GPT-5 Thinking — Max-Context Orchestrator
 
 ```
 <Prompt title="GPT-5 Thinking — Long-Context DeepSearch Orchestrator">
@@ -234,7 +241,7 @@ Default budgets (ULTRA is the default; FAST must be explicitly requested by the 
 
 ``` 
 
-### 4. "GPT-5 Thinking Complex-Task Prompt Synthesizer (Workflow A-F + Six Pillars)
+### 4. GPT-5 Thinking Complex-Task Prompt Synthesizer (Workflow A-F + Six Pillars)
 
 ```
 <Prompt title="GPT-5 Thinking Complex-Task Prompt Synthesizer (Workflow A-F + Six Pillars)">
